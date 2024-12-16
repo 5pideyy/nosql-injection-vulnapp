@@ -10,7 +10,7 @@ import com.mongodb.client.MongoClients;
 
 public class MongoClientUtil {
 
-    public static final String uri = "mongodb://localhost:27017";
+    public static final String uri = "mongodb://localhost:27017/?ssl=false";
     public static final MongoClient mongoClient = MongoClients.create(uri);
 
 }
