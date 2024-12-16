@@ -4,6 +4,7 @@
 
 NIVA is a simple web application which is intentionally vulnerable to NoSQL injection. The purpose of this project is to facilitate a better understanding of the NoSQL injection vulnerability among a wide audience of software engineers, security engineers, pentesters, and trainers. This is achieved by giving users both secure and insecure code examples which they can run and inspect on their own, complimented by easy to read documentation.
 
+[WEB ACCESS](https://nosql-injection-vulnapp.onrender.com)
 This edition utilizes MongoDB as the NoSQL database and the official Java driver for data access.
 
 # Setup
