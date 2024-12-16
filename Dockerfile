@@ -1,5 +1,8 @@
-# Use Maven to build the app and Eclipse Temurin as the base image
+# Use Eclipse Temurin as the base image (JDK 17)
 FROM eclipse-temurin:17-jdk-focal AS build
+
+# Install Maven (since it's not included in the base image)
+RUN apt-get update && apt-get install -y maven
 
 # Set the working directory inside the container
 WORKDIR /app
